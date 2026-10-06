@@ -6,7 +6,7 @@
     <a href="https://github.com/ovurrsl"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://linkedin.com/in/resul-ovur"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     <img src="https://img.shields.io/badge/GitHub_Pro-Student-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pro" />
-    <img src="https://img.shields.io/badge/Focus-3D_Web_%26_Three.js-7928CA?style=for-the-badge&logo=three.js&logoColor=white" />
+    <img src="https://komarev.com/ghpvc/?username=ovurrsl&style=for-the-badge&color=0e75b6&label=Ziyaretler" alt="Ziyaretçi Sayısı" />
   </p>
 </div>
 
@@ -34,6 +34,15 @@ Yazılım öğrenirken ezberden kaçınıp mimariyi, kök neden analizlerini ve 
 | 🧊 **[pascalorg/editor](https://github.com/pascalorg/editor)** | Açık kaynaklı 3D mekan/bina editöründe mimari iyileştirmeler ve hata onarımları:<br>• **Windows SSR DNS Fix (#876):** Server component HTTP fetch çökmesi doğrudan scene singleton ile çözüldü.<br>• **Reference Panel Parity (E-008):** Pozisyon ve ölçek sınırları kaldırılarak Invariant E-008 ile tam uyum sağlandı.<br>• **Mezzanine Internal Stair:** Asma kat içine merdiven yerleşimi ve otomatik döşeme tavan boşluğu senkronizasyonu geliştirildi. | TypeScript, Three.js, Monorepo, ATA iSpec 2200 / ASD S1000D |
 | 🎨 **CSS Mimari & UI/UX** | Sıfır harici görsel ve sıfır JS ile yalnızca semantik HTML ve saf modern CSS3 ile responsive arayüz prototipleri. | Pure CSS3, Flexbox/Grid, Animations |
 | 🐞 **Kök Neden Analizi & Dokümantasyon** | Karşılaşılan runtime ve build hatalarının sistemik analizi, hata loglarının şeffaf dokümantasyonu. | Next.js, Node.js, Git, Debugging |
+
+---
+
+### 🏆 GitHub Gelişim Kupalarım (Trophies)
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=ovurrsl&theme=onedark&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  </a>
+</p>
 
 ---
 
