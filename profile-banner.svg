@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1200 320" width="100%" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-glow" cx="80%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#1e1e38" />
+      <stop offset="70%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#07090e" />
+    </radialGradient>
+
+    <!-- Ambient Orange/Blue Glow -->
+    <radialGradient id="ambient-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97757" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#58a6ff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#c9d1d9" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+
+    <!-- Student Badge Border Gradient -->
+    <linearGradient id="badge-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filter for subtle blur -->
+    <filter id="glow-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="50" />
+    </filter>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-glow)" stroke="#58a6ff" stroke-opacity="0.2" stroke-width="1.5" />
+
+  <!-- Ambient Light Circle -->
+  <circle cx="980" cy="80" r="220" fill="url(#ambient-glow)" filter="url(#glow-blur)" />
+
+  <g transform="translate(80, 0)">
+    <!-- Student Badge Pill -->
+    <g transform="translate(0, 42)">
+      <rect width="320" height="32" rx="16" fill="#58a6ff" fill-opacity="0.1" stroke="url(#badge-border)" stroke-width="1" />
+      <text x="160" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#58a6ff" text-anchor="middle" letter-spacing="0.5">
+        🎓 AÖF WEB TASARIM VE KODLAMA ÖĞRENCİSİ
+      </text>
+    </g>
+
+    <!-- Title -->
+    <text x="0" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="url(#title-grad)" letter-spacing="-0.5">
+      Resul Övür
+    </text>
+
+    <!-- Subtitle (Line 1) -->
+    <text x="0" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#8b949e">
+      Modern web arayüzleri, CSS estetiği ve 3D grafik dünyasında kendini geliştiren geliştirici adayı.
+    </text>
+
+    <!-- Subtitle (Line 2) -->
+    <text x="0" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#8b949e">
+      <tspan fill="#ff9e7d" font-weight="600">Claude AI Mentörlüğü</tspan> ile mimariyi, kök neden analizlerini ve temiz kodu öğreniyor.
+    </text>
+
+    <!-- Tech Pills Group -->
+    <g transform="translate(0, 235)">
+      <!-- Pill 1: AI-Assisted Learning (Highlight) -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="34" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#d97757" stroke-opacity="0.5" stroke-width="1" />
+        <text x="90" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#ff9e7d" text-anchor="middle">
+          🤖 AI-Assisted Learning
+        </text>
+      </g>
+
+      <!-- Pill 2: Pure CSS & UI/UX -->
+      <g transform="translate(195, 0)">
+        <rect width="165" height="34" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+        <text x="82.5" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#c9d1d9" text-anchor="middle">
+          🎨 Pure CSS &amp; UI/UX
+        </text>
+      </g>
+
+      <!-- Pill 3: Three.js & 3D Web -->
+      <g transform="translate(375, 0)">
+        <rect width="170" height="34" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+        <text x="85" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#c9d1d9" text-anchor="middle">
+          🧊 Three.js &amp; 3D Web
+        </text>
+      </g>
+
+      <!-- Pill 4: Next.js & TypeScript -->
+      <g transform="translate(560, 0)">
+        <rect width="180" height="34" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+        <text x="90" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#c9d1d9" text-anchor="middle">
+          🌐 Next.js &amp; TypeScript
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
