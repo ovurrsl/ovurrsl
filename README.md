@@ -1,22 +1,22 @@
 <div align="center">
-  <!-- Özel Tasarım Banner -->
+  <!-- Custom Profile Banner -->
   <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-banner.svg" alt="Resul Övür Banner" width="100%" />
 
   <p align="center">
     <a href="https://github.com/ovurrsl"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://linkedin.com/in/resul-ovur"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     <img src="https://img.shields.io/badge/GitHub_Pro-Student-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pro" />
-    <img src="https://hits.sh/github.com/ovurrsl.svg?style=for-the-badge&label=Ziyaretler&color=0e75b6" alt="Ziyaretçi Sayısı" />
+    <img src="https://hits.sh/github.com/ovurrsl.svg?style=for-the-badge&label=Visitors&color=0e75b6" alt="Visitor Count" />
   </p>
 </div>
 
 ---
 
-### 🎓 Kimim & Nasıl Öğreniyorum?
-**Açık Öğretim Fakültesi - Web Tasarım ve Kodlama** öğrencisiyim. Modern, kullanıcı dostu arayüzler ve 3D grafik deneyimleri üretmeye odaklanıyorum.
+### 🎓 Who I Am & How I Learn
+I am a **Web Design & Coding** student at Anadolu University (AÖF), focused on engineering user-centric web applications and interactive 3D graphics experiences.
 
 🤖 **AI-Assisted Pair Programming:**  
-Yazılım öğrenirken ezberden kaçınıp mimariyi, kök neden analizlerini ve temiz kod (*clean code*) standartlarını kavramak için **Claude AI** ile eşli programlama (pair programming) yapıyorum.
+To move beyond rote memorization, I practice disciplined pair programming with **Claude AI**—actively dissecting software architectures, conducting root-cause failure analyses, and adhering to strict clean-code invariants.
 
 ---
 
@@ -29,43 +29,43 @@ Yazılım öğrenirken ezberden kaçınıp mimariyi, kök neden analizlerini ve 
 
 ---
 
-### 🛠️ Teknolojiler & Beceriler
+### 🛠️ Tech Stack & Skills
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,tailwind,bun,git,github" />
 </p>
 
 ---
 
-### 🌟 Açık Kaynak Katkılarım & Projelerim
+### 🌟 Open Source Contributions & Projects
 
-| Çalışma / Proje | Açıklama & Kapsam | Teknoloji & Standart |
+| Project / Track | Scope & Technical Implementation | Standards & Tools |
 | :--- | :--- | :--- |
-| 🧊 **[pascalorg/editor](https://github.com/pascalorg/editor)** | Açık kaynaklı 3D mekan/bina editöründe mimari iyileştirmeler ve hata onarımları:<br>• **Stair Handedness Mirror (#901):** Dönüşlü merdivenler için in-place simetri ve çift yönlü ayna desteği.<br>• **Windows SSR DNS Fix (#876):** Server component HTTP fetch çökmesi doğrudan scene singleton ile çözüldü.<br>• **Reference Panel Parity (E-008):** Pozisyon ve ölçek sınırları kaldırılarak Invariant E-008 ile tam uyum sağlandı.<br>• **Mezzanine Internal Stair:** Asma kat içine merdiven yerleşimi ve otomatik döşeme tavan boşluğu senkronizasyonu geliştirildi. | TypeScript, Three.js, Monorepo, ATA iSpec 2200 / ASD S1000D |
-| 🎨 **CSS Mimari & UI/UX** | Sıfır harici görsel ve sıfır JS ile yalnızca semantik HTML ve saf modern CSS3 ile responsive arayüz prototipleri. | Pure CSS3, Flexbox/Grid, Animations |
-| 🐞 **Kök Neden Analizi & Dokümantasyon** | Karşılaşılan runtime ve build hatalarının sistemik analizi, hata loglarının şeffaf dokümantasyonu. | Next.js, Node.js, Git, Debugging |
+| 🧊 **[pascalorg/editor](https://github.com/pascalorg/editor)** | Architectural improvements and defect fixes across a web-based 3D CAD/BIM editor monorepo:<br>• **Stair Handedness Mirror (#901):** In-place symmetry and bi-directional mirror transform for turning and cut-back stairs.<br>• **Windows SSR DNS Fix (#876):** Resolved server component HTTP fetch crash via direct scene singleton access.<br>• **Reference Panel Parity (E-008):** Uncapped position and scale bounds, ensuring strict compliance with Invariant E-008.<br>• **Mezzanine Internal Stair:** Integrated internal stair placement with automated floor/ceiling clearance synchronization. | TypeScript, Three.js, Monorepo, WebGPU |
+| 🎨 **CSS Architecture & UI/UX** | Zero external images, zero JS responsive UI prototypes built purely with semantic HTML5 and modern CSS3. | Pure CSS3, Flexbox/Grid, Animations |
+| 🐞 **Root Cause Analysis & Diagnostics** | Systematic debugging of complex runtime and build errors with transparent post-mortems and documentation. | Next.js, Node.js, Git, Debugging |
 
 ---
 
-### 🧩 Beni Yakından Tanıyın (Üzerine Tıklayın!)
+### 🧩 Get to Know Me (Click to Expand)
 
 <details>
-  <summary>🤔 Web tasarımında beni en çok ne heyecanlandırıyor?</summary>
+  <summary>🤔 What excites me most about web development?</summary>
   <br />
-  🎯 <b>CSS ve 3D grafiklerle sınırları zorlamak!</b> Kod yazarak görsel tasarımlar ve interaktif 3D mekanlar ortaya çıkarmak beni çok motive ediyor.
+  🎯 <b>Pushing boundaries with CSS and 3D graphics!</b> Turning clean code into engaging visual interfaces and interactive 3D spatial environments drives my passion every single day.
 </details>
 
 <details>
-  <summary>🐛 Karşılaştığım hataları nasıl çözüyorum?</summary>
+  <summary>🐛 How do I tackle complex bugs and runtime errors?</summary>
   <br />
-  📝 Hata mesajlarından korkmuyorum. Claude ile adım adım kök neden analizi (root cause analysis) yaparak düzeltiyor ve öğrendiklerimi kalıcı bilgiye dönüştürüyorum.
+  📝 I don't shy away from cryptic stack traces. I perform methodical root-cause analyses with Claude AI, identifying the fundamental failure point and transforming every bug into durable engineering knowledge.
 </details>
 
 <details>
-  <summary>🧊 Açık kaynak dünyasındaki hedeflerim neler?</summary>
+  <summary>🧊 What are my long-term goals in open source?</summary>
   <br />
-  🦈 Büyük sistemlerin nasıl çalıştığını öğrenmek için <b>Pascal Editor (3D CAD/BIM)</b> gibi monorepo projelerine katkı veriyor, endüstri standartlarında PR süreçlerini deneyimliyorum.
+  🦈 To master large-scale distributed architectures, I contribute to production monorepos like <b>Pascal Editor (3D CAD/BIM)</b>, gaining hands-on mastery over enterprise PR workflows, typing invariants, and testing standards.
 </details>
 
 ---
 
-<p align="center"><i>"Büyük sistemler, her gün atılan küçük ve tutarlı adımlarla inşa edilir."</i></p>
+<p align="center"><i>"Great systems are built with small, consistent steps taken every single day."</i></p>
