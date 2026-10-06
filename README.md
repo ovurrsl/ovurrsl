@@ -6,7 +6,7 @@
     <a href="https://github.com/ovurrsl"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://linkedin.com/in/resul-ovur"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     <img src="https://img.shields.io/badge/GitHub_Pro-Student-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pro" />
-    <img src="https://komarev.com/ghpvc/?username=ovurrsl&style=for-the-badge&color=0e75b6&label=Ziyaretler" alt="Ziyaretçi Sayısı" />
+    <img src="https://hits.sh/github.com/ovurrsl.svg?style=for-the-badge&label=Ziyaretler&color=0e75b6" alt="Ziyaretçi Sayısı" />
   </p>
 </div>
 
