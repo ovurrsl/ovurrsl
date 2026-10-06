@@ -1,0 +1,2 @@
+# Responsive Typography
+`font-size: clamp(1rem, 2.5vw, 2rem)` scales fluidly.
