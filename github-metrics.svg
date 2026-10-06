@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1140" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+      
+      .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 16; }
+      .header-title { font-family: 'Inter', -apple-system, sans-serif; font-size: 20px; font-weight: 700; fill: #f0f6fc; }
+      .header-sub { font-family: 'Inter', -apple-system, sans-serif; font-size: 13px; fill: #8b949e; }
+      .section-title { font-family: 'Inter', -apple-system, sans-serif; font-size: 14px; font-weight: 600; fill: #58a6ff; letter-spacing: 0.3px; }
+      .text-regular { font-family: 'Inter', -apple-system, sans-serif; font-size: 13px; fill: #c9d1d9; }
+      .text-muted { font-family: 'Inter', -apple-system, sans-serif; font-size: 12px; fill: #8b949e; }
+      .text-mono { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #7ee787; }
+      .card { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 10; }
+      .badge-bg { fill: #21262d; stroke: #30363d; stroke-width: 1; rx: 6; }
+      .badge-text { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; font-weight: 500; fill: #58a6ff; }
+      .stat-num { font-family: 'Inter', -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #f0f6fc; }
+      .stat-label { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #8b949e; text-transform: uppercase; letter-spacing: 0.5px; }
+      .divider { stroke: #21262d; stroke-width: 1; }
+    </style>
+
+    <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ea043" />
+      <stop offset="100%" stop-color="#238636" />
+    </linearGradient>
+
+    <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6feb" />
+      <stop offset="100%" stop-color="#0969da" />
+    </linearGradient>
+
+    <linearGradient id="grad-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a371f7" />
+      <stop offset="100%" stop-color="#8957e5" />
+    </linearGradient>
+
+    <!-- Isometric Cube Top/Left/Right Filters -->
+    <filter id="iso-l1">
+      <feComponentTransfer><feFuncR type="linear" slope="0.85"/><feFuncG type="linear" slope="0.85"/><feFuncB type="linear" slope="0.85"/></feComponentTransfer>
+    </filter>
+    <filter id="iso-l2">
+      <feComponentTransfer><feFuncR type="linear" slope="0.5"/><feFuncG type="linear" slope="0.5"/><feFuncB type="linear" slope="0.5"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="1136" class="bg" />
+
+  <!-- ==================== HEADER ==================== -->
+  <g transform="translate(32, 28)">
+    <!-- Avatar circle -->
+    <rect x="0" y="0" width="56" height="56" rx="28" fill="#1f6feb" />
+    <text x="28" y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="22" font-weight="700" fill="#ffffff">RÖ</text>
+
+    <!-- Identity & Info -->
+    <text x="70" y="24" class="header-title">Resul Övür</text>
+    <text x="180" y="24" class="text-muted" font-size="14">(@ovurrsl)</text>
+    <text x="70" y="46" class="header-sub">AÖF Web Tasarım &amp; Kodlama • Three.js 3D &amp; Modern UI • AI-Assisted Pair Programming</text>
+
+    <!-- Top Stats Row -->
+    <g transform="translate(0, 76)">
+      <rect x="0" y="0" width="186" height="60" class="card" />
+      <text x="16" y="28" class="stat-num">498</text>
+      <text x="16" y="46" class="stat-label">Contributions (2026)</text>
+
+      <rect x="200" y="0" width="186" height="60" class="card" />
+      <text x="216" y="28" class="stat-num">13 PRs</text>
+      <text x="216" y="46" class="stat-label">pascalorg / 3D CAD</text>
+
+      <rect x="400" y="0" width="186" height="60" class="card" />
+      <text x="416" y="28" class="stat-num">98.2%</text>
+      <text x="416" y="46" class="stat-label">TypeScript Stack</text>
+
+      <rect x="600" y="0" width="186" height="60" class="card" />
+      <text x="616" y="28" class="stat-num">Rank A</text>
+      <text x="616" y="46" class="stat-label">Commits &amp; PR Trophies</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="32" y1="184" x2="818" y2="184" class="divider" />
+
+  <!-- ==================== COMPONENT 1: 3D ISOMETRIC CALENDAR ==================== -->
+  <g transform="translate(32, 204)">
+    <g>
+      <!-- Title -->
+      <path d="M0,2 h14 v12 h-14 z M3,0 v4 M11,0 v4" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+      <text x="22" y="12" class="section-title">ISOMETRIC 3D CONTRIBUTION CALENDAR</text>
+      <text x="670" y="12" class="text-mono">4-DAY STREAK • PEAK 40</text>
+    </g>
+
+    <rect x="0" y="26" width="786" height="210" class="card" />
+
+    <!-- 3D Isometric Projection Grid -->
+    <g transform="translate(390, 85)">
+      <!-- Ground Iso Plane Reference -->
+      <!-- We render representative columns of 3D cubes with heights corresponding to commit activity -->
+      
+      <!-- Week 1 - 24 base grid -->
+      <!-- Isometric cube generator macro: Top: (0,0) (14, 7) (0, 14) (-14, 7); Left side; Right side -->
+      
+      <!-- Inactive background cells -->
+      <g opacity="0.35">
+        <path d="M-280,40 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+        <path d="M-250,25 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+        <path d="M-220,10 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+        <path d="M-190,-5 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+        <path d="M-160,-20 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+        <path d="M-130,-35 l12,6 l-12,6 l-12,-6 z" fill="#21262d" stroke="#30363d" stroke-width="0.5" />
+      </g>
+
+      <!-- Active 3D Columns (Tower Bars) for recent active periods -->
+      <!-- Bar 1 (Height 20) -->
+      <g transform="translate(-100, 20)">
+        <path d="M-14,-13 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-13 l0,20 l14,7 l0,-20 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-20 l14,-7 l0,20 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 2 (Height 42 - Peak) -->
+      <g transform="translate(-70, 5)">
+        <path d="M-14,-35 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-35 l0,42 l14,7 l0,-42 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-42 l14,-7 l0,42 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 3 (Height 28) -->
+      <g transform="translate(-40, -10)">
+        <path d="M-14,-21 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-21 l0,28 l14,7 l0,-28 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-28 l14,-7 l0,28 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 4 (Height 16) -->
+      <g transform="translate(-10, -25)">
+        <path d="M-14,-9 l14,-7 l14,7 l-14,7 z" fill="#2ea043" />
+        <path d="M-14,-9 l0,16 l14,7 l0,-16 z" fill="#238636" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-16 l14,-7 l0,16 z" fill="#196c2e" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 5 (Height 34) -->
+      <g transform="translate(20, -10)">
+        <path d="M-14,-27 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-27 l0,34 l14,7 l0,-34 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-34 l14,-7 l0,34 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 6 (Height 48 - Super Peak) -->
+      <g transform="translate(50, 5)">
+        <path d="M-14,-41 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-41 l0,48 l14,7 l0,-48 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-48 l14,-7 l0,48 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 7 (Height 22) -->
+      <g transform="translate(80, 20)">
+        <path d="M-14,-15 l14,-7 l14,7 l-14,7 z" fill="#2ea043" />
+        <path d="M-14,-15 l0,22 l14,7 l0,-22 z" fill="#238636" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-22 l14,-7 l0,22 z" fill="#196c2e" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 8 (Height 30) -->
+      <g transform="translate(110, 35)">
+        <path d="M-14,-23 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-23 l0,30 l14,7 l0,-30 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-30 l14,-7 l0,30 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+
+      <!-- Bar 9 (Current Week Activity) -->
+      <g transform="translate(140, 50)">
+        <path d="M-14,-29 l14,-7 l14,7 l-14,7 z" fill="#39d353" />
+        <path d="M-14,-29 l0,36 l14,7 l0,-36 z" fill="#2ea043" filter="url(#iso-l1)" />
+        <path d="M0,14 l0,-36 l14,-7 l0,36 z" fill="#238636" filter="url(#iso-l2)" />
+      </g>
+    </g>
+
+    <!-- Legend inside calendar -->
+    <g transform="translate(20, 180)">
+      <text x="0" y="10" class="text-muted" font-size="11">Oct 2025</text>
+      <text x="350" y="10" class="text-muted" font-size="11">Apr 2026</text>
+      <text x="700" y="10" class="text-muted" font-size="11">Oct 2026</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="32" y1="462" x2="818" y2="462" class="divider" />
+
+  <!-- ==================== COMPONENT 2: NOTABLE CONTRIBUTIONS ==================== -->
+  <g transform="translate(32, 482)">
+    <path d="M0,2 h14 v12 h-14 z" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+    <text x="22" y="12" class="section-title">NOTABLE OPEN SOURCE CONTRIBUTIONS</text>
+    <text x="686" y="12" class="text-mono">19 PRs TOTAL</text>
+
+    <!-- Pascal Editor Card -->
+    <g transform="translate(0, 26)">
+      <rect x="0" y="0" width="384" height="110" class="card" />
+      <rect x="14" y="16" width="34" height="34" rx="8" fill="url(#grad-accent)" />
+      <text x="31" y="38" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#ffffff">P</text>
+      
+      <text x="58" y="30" class="text-regular" font-weight="600" font-size="14">pascalorg/editor</text>
+      <rect x="195" y="16" width="60" height="20" class="badge-bg" />
+      <text x="225" y="30" text-anchor="middle" class="badge-text">13 PRs</text>
+
+      <text x="58" y="52" class="text-muted">3D CAD / WebGPU Building Editor</text>
+      <text x="14" y="80" class="text-mono" font-size="11">• #901: Stair Handedness Mirror</text>
+      <text x="14" y="98" class="text-mono" font-size="11">• #876: Win SSR DNS • #999: Mezzanine Deck</text>
+    </g>
+
+    <!-- Exo Card -->
+    <g transform="translate(402, 26)">
+      <rect x="0" y="0" width="384" height="110" class="card" />
+      <rect x="14" y="16" width="34" height="34" rx="8" fill="url(#grad-purple)" />
+      <text x="31" y="38" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#ffffff">E</text>
+
+      <text x="58" y="30" class="text-regular" font-weight="600" font-size="14">exo-explore/exo</text>
+      <rect x="190" y="16" width="55" height="20" class="badge-bg" />
+      <text x="217" y="30" text-anchor="middle" class="badge-text">6 PRs</text>
+
+      <text x="58" y="52" class="text-muted">Run frontier AI cluster locally</text>
+      <text x="14" y="80" class="text-mono" font-size="11">• Windows Native NVIDIA GPU Run</text>
+      <text x="14" y="98" class="text-mono" font-size="11">• CI Matrix &amp; Environment Parity</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="32" y1="640" x2="818" y2="640" class="divider" />
+
+  <!-- ==================== COMPONENT 3 & 4: LANGUAGES & CODING HABITS ==================== -->
+  <g transform="translate(32, 660)">
+    <!-- Languages (Left) -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="12" class="section-title">MOST USED LANGUAGES</text>
+      
+      <g transform="translate(0, 26)">
+        <rect x="0" y="0" width="384" height="180" class="card" />
+
+        <!-- Progress Bar -->
+        <g transform="translate(20, 24)">
+          <rect x="0" y="0" width="344" height="12" rx="6" fill="#21262d" />
+          <rect x="0" y="0" width="338" height="12" rx="6" fill="#3178c6" />
+          <rect x="338" y="0" width="4" height="12" fill="#f34b7d" />
+          <rect x="342" y="0" width="2" height="12" fill="#f1e05a" />
+        </g>
+
+        <!-- Legend Items -->
+        <g transform="translate(20, 60)">
+          <!-- TS -->
+          <circle cx="6" cy="6" r="6" fill="#3178c6" />
+          <text x="22" y="10" class="text-regular" font-weight="600">TypeScript</text>
+          <text x="320" y="10" text-anchor="end" class="text-mono">98.2%</text>
+
+          <!-- C++ -->
+          <circle cx="6" cy="34" r="6" fill="#f34b7d" />
+          <text x="22" y="38" class="text-regular" font-weight="600">C++</text>
+          <text x="320" y="38" text-anchor="end" class="text-mono">1.0%</text>
+
+          <!-- JS -->
+          <circle cx="6" cy="62" r="6" fill="#f1e05a" />
+          <text x="22" y="66" class="text-regular" font-weight="600">JavaScript</text>
+          <text x="320" y="66" text-anchor="end" class="text-mono">0.5%</text>
+
+          <!-- CSS / HTML -->
+          <circle cx="6" cy="90" r="6" fill="#563d7c" />
+          <text x="22" y="94" class="text-regular" font-weight="600">CSS / HTML</text>
+          <text x="320" y="94" text-anchor="end" class="text-mono">0.3%</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Coding Habits (Right) -->
+    <g transform="translate(402, 0)">
+      <text x="0" y="12" class="section-title">CODING HABITS &amp; PRODUCTIVITY</text>
+
+      <g transform="translate(0, 26)">
+        <rect x="0" y="0" width="384" height="180" class="card" />
+
+        <g transform="translate(20, 26)">
+          <text x="0" y="12" class="text-muted">Active Cycle</text>
+          <text x="140" y="12" class="text-regular" font-weight="600">Late Afternoon &amp; Night</text>
+
+          <text x="0" y="44" class="text-muted">Primary Focus</text>
+          <text x="140" y="44" class="text-regular" font-weight="600">Full-Stack, 3D &amp; Performance</text>
+
+          <text x="0" y="76" class="text-muted">Peak Velocity</text>
+          <text x="140" y="76" class="text-regular" font-weight="600">Sunday (60 Commits)</text>
+
+          <text x="0" y="108" class="text-muted">Current Streak</text>
+          <text x="140" y="108" class="text-mono" font-size="14" font-weight="700">Consistent Active Flow</text>
+
+          <text x="0" y="138" class="text-muted">Methodology</text>
+          <text x="140" y="138" class="badge-text" font-size="12">AI Pair Programming (Claude)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="32" y1="890" x2="818" y2="890" class="divider" />
+
+  <!-- ==================== COMPONENT 5: ACHIEVEMENTS ==================== -->
+  <g transform="translate(32, 910)">
+    <text x="0" y="12" class="section-title">GITHUB ACHIEVEMENTS &amp; RECOGNITION</text>
+
+    <g transform="translate(0, 26)">
+      <!-- Badge 1: Pull Shark -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="186" height="80" class="card" />
+        <circle cx="36" cy="40" r="18" fill="#1f6feb" opacity="0.2" />
+        <text x="36" y="46" text-anchor="middle" font-size="20">🦈</text>
+        <text x="68" y="34" class="text-regular" font-weight="600" font-size="13">Pull Shark</text>
+        <text x="68" y="52" class="badge-text">x2 Multi-PR</text>
+      </g>
+
+      <!-- Badge 2: Quickdraw -->
+      <g transform="translate(200, 0)">
+        <rect x="0" y="0" width="186" height="80" class="card" />
+        <circle cx="36" cy="40" r="18" fill="#d29922" opacity="0.2" />
+        <text x="36" y="46" text-anchor="middle" font-size="20">⚡</text>
+        <text x="68" y="34" class="text-regular" font-weight="600" font-size="13">Quickdraw</text>
+        <text x="68" y="52" class="badge-text" fill="#d29922">Fast Review</text>
+      </g>
+
+      <!-- Badge 3: Pair Extraordinaire -->
+      <g transform="translate(400, 0)">
+        <rect x="0" y="0" width="186" height="80" class="card" />
+        <circle cx="36" cy="40" r="18" fill="#a371f7" opacity="0.2" />
+        <text x="36" y="46" text-anchor="middle" font-size="20">🤖</text>
+        <text x="68" y="34" class="text-regular" font-weight="600" font-size="13">AI Pair Pro</text>
+        <text x="68" y="52" class="badge-text" fill="#a371f7">Co-Authored</text>
+      </g>
+
+      <!-- Badge 4: PRO Student -->
+      <g transform="translate(600, 0)">
+        <rect x="0" y="0" width="186" height="80" class="card" />
+        <circle cx="36" cy="40" r="18" fill="#2ea043" opacity="0.2" />
+        <text x="36" y="46" text-anchor="middle" font-size="20">🎓</text>
+        <text x="68" y="34" class="text-regular" font-weight="600" font-size="13">PRO Student</text>
+        <text x="68" y="52" class="badge-text" fill="#3fb950">AÖF Web Dev</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <g transform="translate(32, 1070)">
+    <text x="410" y="30" text-anchor="middle" class="text-muted" font-size="12">
+      ⚡ Powered by lowlighter/metrics • Updated via GitHub Actions
+    </text>
+  </g>
+</svg>
