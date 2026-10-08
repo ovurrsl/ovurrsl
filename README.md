@@ -29,6 +29,19 @@ To move beyond rote memorization, I practice disciplined pair programming with *
 
 ---
 
+### 🧊 3D Contribution Calendar & Activity Overview
+
+<div align="center">
+  <!-- Generated daily by .github/workflows/profile-3d.yml (yoshi389111/github-profile-3d-contrib) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-green.svg" />
+    <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar with a radar chart of commits, issues, pull requests and reviews" width="100%" />
+  </picture>
+</div>
+
+---
+
 ### 🛠️ Tech Stack & Skills
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,tailwind,bun,git,github" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Three.js, Tailwind CSS, Bun, Git, GitHub" />
