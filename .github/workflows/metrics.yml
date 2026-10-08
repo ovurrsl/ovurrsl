@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # METRICS_TOKEN must be a personal access token (classic) with the
+          # `public_repo` and `read:user` scopes. The default GITHUB_TOKEN can't
+          # read user-level data, so the notable, habits and achievements
+          # plugins fail with "Unexpected error" when it is used instead.
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: ovurrsl
           template: classic
