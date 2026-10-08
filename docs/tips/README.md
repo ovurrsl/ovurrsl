@@ -1,6 +1,6 @@
 # 💡 Dev Tips
 
-Short, practical notes collected while learning web development.
+Short, practical notes collected while learning web development. Each tip has a code example and explains why it matters.
 
 | # | Tip | Topic |
 | :-- | :-- | :-- |
