@@ -3,8 +3,8 @@
   <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-banner.svg" alt="Resul Övür Banner" width="100%" />
 
   <p align="center">
-    <a href="https://github.com/ovurrsl"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://linkedin.com/in/resul-ovur"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://github.com/ovurrsl"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://linkedin.com/in/resul-ovur"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <img src="https://img.shields.io/badge/GitHub_Pro-Student-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pro" />
     <img src="https://hits.sh/github.com/ovurrsl.svg?style=for-the-badge&label=Visitors&color=0e75b6" alt="Visitor Count" />
   </p>
@@ -23,15 +23,15 @@ To move beyond rote memorization, I practice disciplined pair programming with *
 ### 📊 Developer Metrics & 3D Analytics (lowlighter/metrics)
 
 <div align="center">
-  <!-- Unified lowlighter/metrics dark card -->
-  <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/github-metrics.svg" alt="Resul Övür - GitHub Metrics Dashboard" width="100%" />
+  <!-- lowlighter/metrics card, regenerated daily by .github/workflows/metrics.yml -->
+  <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/github-metrics.svg" alt="Resul Övür - GitHub Metrics Dashboard" />
 </div>
 
 ---
 
 ### 🛠️ Tech Stack & Skills
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,tailwind,bun,git,github" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,tailwind,bun,git,github" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Three.js, Tailwind CSS, Bun, Git, GitHub" />
 </p>
 
 ---
@@ -40,9 +40,14 @@ To move beyond rote memorization, I practice disciplined pair programming with *
 
 | Project / Track | Scope & Technical Implementation | Standards & Tools |
 | :--- | :--- | :--- |
-| 🧊 **[pascalorg/editor](https://github.com/pascalorg/editor)** | Architectural improvements and defect fixes across a web-based 3D CAD/BIM editor monorepo:<br>• **Stair Handedness Mirror (#901):** In-place symmetry and bi-directional mirror transform for turning and cut-back stairs.<br>• **Windows SSR DNS Fix (#876):** Resolved server component HTTP fetch crash via direct scene singleton access.<br>• **Reference Panel Parity (E-008):** Uncapped position and scale bounds, ensuring strict compliance with Invariant E-008.<br>• **Mezzanine Internal Stair:** Integrated internal stair placement with automated floor/ceiling clearance synchronization. | TypeScript, Three.js, Monorepo, WebGPU |
+| 🧊 **[pascalorg/editor](https://github.com/pascalorg/editor)** | Architectural improvements and defect fixes across a web-based 3D CAD/BIM editor monorepo:<br>• **Stair Handedness Mirror ([#901](https://github.com/pascalorg/editor/pull/901)):** In-place symmetry and bi-directional mirror transform for turning and cut-back stairs.<br>• **Windows SSR DNS Fix ([#876](https://github.com/pascalorg/editor/pull/876)):** Resolved server component HTTP fetch crash via direct scene singleton access.<br>• **Reference Panel Parity (E-008):** Uncapped position and scale bounds, ensuring strict compliance with Invariant E-008.<br>• **Mezzanine Internal Stair:** Integrated internal stair placement with automated floor/ceiling clearance synchronization. | TypeScript, Three.js, Monorepo, WebGPU |
 | 🎨 **CSS Architecture & UI/UX** | Zero external images, zero JS responsive UI prototypes built purely with semantic HTML5 and modern CSS3. | Pure CSS3, Flexbox/Grid, Animations |
 | 🐞 **Root Cause Analysis & Diagnostics** | Systematic debugging of complex runtime and build errors with transparent post-mortems and documentation. | Next.js, Node.js, Git, Debugging |
+
+---
+
+### 💡 Dev Tips
+Short, practical notes I collect while learning — see **[docs/tips](docs/tips/README.md)**.
 
 ---
 
