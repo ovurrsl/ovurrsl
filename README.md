@@ -1,25 +1,47 @@
 ## Resul Övür
 
-Web Design & Coding student at Anadolu University. I build interactive 3D scenes with Three.js and clean interfaces with pure CSS, and I learn by working in real codebases: reading the code, tracing bugs to their root cause, and sending pull requests.
+```typescript
+const resul = {
+  role: "Web Design & Coding student @ Anadolu University",
+  focus: ["3D web with Three.js", "UI engineering with pure CSS"],
+  currently: "Contributing to pascalorg/editor, a web-based 3D CAD/BIM editor",
+  approach: "Read real codebases, trace bugs to their root cause, send pull requests",
+};
+```
 
-- Contributing to [pascalorg/editor](https://github.com/pascalorg/editor), a web-based 3D CAD/BIM editor → [my pull requests](https://github.com/pascalorg/editor/pulls?q=is%3Apr+author%3Aovurrsl)
-- Writing short [dev tips](docs/tips/README.md) as I learn
-- [LinkedIn](https://linkedin.com/in/resul-ovur)
+### Tech Stack
 
-### Open source
+**Languages**
+![TypeScript](https://img.shields.io/badge/TypeScript-24292e?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-24292e?style=flat-square&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-24292e?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-24292e?style=flat-square&logo=css&logoColor=white)
 
-| Pull request | What it does |
+**Frontend & 3D**
+![React](https://img.shields.io/badge/React-24292e?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-24292e?style=flat-square&logo=nextdotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-24292e?style=flat-square&logo=threedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-24292e?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Tooling**
+![Bun](https://img.shields.io/badge/Bun-24292e?style=flat-square&logo=bun&logoColor=white)
+![Git](https://img.shields.io/badge/Git-24292e?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white)
+
+### Open Source
+
+Pull requests to [pascalorg/editor](https://github.com/pascalorg/editor) · [all my PRs](https://github.com/pascalorg/editor/pulls?q=is%3Apr+author%3Aovurrsl)
+
+| Pull request | Summary |
 | :-- | :-- |
 | [Stair handedness mirror](https://github.com/pascalorg/editor/pull/901) | In-place symmetry and bi-directional mirror transform for turning and cut-back stairs |
 | [Windows SSR DNS fix](https://github.com/pascalorg/editor/pull/876) | Fixed a server-component fetch crash by reading the scene singleton directly |
 | Reference panel parity | Uncapped position and scale bounds to comply with invariant E-008 |
 | Mezzanine internal stair | Internal stair placement with automatic floor/ceiling clearance sync |
 
-### Stack
+### Dev Tips
 
-TypeScript · JavaScript · React · Next.js · Three.js · HTML · CSS · Tailwind · Bun · Git
-
-### Dev tips
+Short notes from things I learn while contributing, each with a code example. Full list in [docs/tips](docs/tips/README.md).
 
 | CSS | TypeScript & Next.js | 3D, accessibility & Git |
 | :-- | :-- | :-- |
@@ -27,3 +49,8 @@ TypeScript · JavaScript · React · Next.js · Three.js · HTML · CSS · Tailw
 | [Responsive typography](docs/tips/05-css-clamp.md) | [Next.js fonts](docs/tips/06-next-fonts.md) | [Semantic landmarks](docs/tips/02-semantic-html.md) |
 | [Animation performance](docs/tips/07-animation-perf.md) | | [SVG accessibility](docs/tips/08-svg-a11y.md) |
 | | | [Pair programming](docs/tips/09-git-coauthors.md) |
+
+### Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292e?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/resul-ovur)
+[![GitHub](https://img.shields.io/badge/@ovurrsl-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/ovurrsl)
