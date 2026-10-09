@@ -1,56 +1,47 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-banner.svg" alt="Resul Övür — Web Design & Coding Student" width="100%" />
-</div>
+## Resul Övür
 
-<br />
+```typescript
+const resul = {
+  role: "Web Design & Coding student @ Anadolu University",
+  focus: ["3D web with Three.js", "UI engineering with pure CSS"],
+  currently: "Contributing to pascalorg/editor, a web-based 3D CAD/BIM editor",
+  approach: "Read real codebases, trace bugs to their root cause, send pull requests",
+};
+```
 
-## Hi, I'm Resul 👋
+### Tech Stack
 
-I'm a **Web Design & Coding** student at Anadolu University. I like building things you can *see* — interactive 3D scenes with **Three.js** and clean interfaces with **pure CSS** — and I learn by pair programming with Claude AI: reading real codebases, tracing bugs to their root cause, and writing code I'd be happy to review.
+**Languages**
+![TypeScript](https://img.shields.io/badge/TypeScript-24292e?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-24292e?style=flat-square&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-24292e?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-24292e?style=flat-square&logo=css&logoColor=white)
 
-- 🧊 Contributing to **[pascalorg/editor](https://github.com/pascalorg/editor)**, a web-based 3D CAD/BIM editor → [my pull requests](https://github.com/pascalorg/editor/pulls?q=is%3Apr+author%3Aovurrsl)
-- 🎨 Building zero-JS, zero-image UI prototypes with semantic HTML and modern CSS
-- 📝 Writing short **[dev tips](docs/tips/README.md)** as I learn
-- 💬 Reach me on [LinkedIn](https://linkedin.com/in/resul-ovur)
+**Frontend & 3D**
+![React](https://img.shields.io/badge/React-24292e?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-24292e?style=flat-square&logo=nextdotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-24292e?style=flat-square&logo=threedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-24292e?style=flat-square&logo=tailwindcss&logoColor=white)
 
-<br />
+**Tooling**
+![Bun](https://img.shields.io/badge/Bun-24292e?style=flat-square&logo=bun&logoColor=white)
+![Git](https://img.shields.io/badge/Git-24292e?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white)
 
-## Tools I use
+### Open Source
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,tailwind,bun,git,github,vscode&perline=12" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Three.js, Tailwind CSS, Bun, Git, GitHub, VS Code" />
-</p>
+Pull requests to [pascalorg/editor](https://github.com/pascalorg/editor) · [all my PRs](https://github.com/pascalorg/editor/pulls?q=is%3Apr+author%3Aovurrsl)
 
-<br />
-
-## Highlights from open source
-
-| Pull request | What it does |
+| Pull request | Summary |
 | :-- | :-- |
 | [Stair handedness mirror](https://github.com/pascalorg/editor/pull/901) | In-place symmetry and bi-directional mirror transform for turning and cut-back stairs |
 | [Windows SSR DNS fix](https://github.com/pascalorg/editor/pull/876) | Fixed a server-component fetch crash by reading the scene singleton directly |
 | Reference panel parity | Uncapped position and scale bounds to comply with invariant E-008 |
 | Mezzanine internal stair | Internal stair placement with automatic floor/ceiling clearance sync |
 
-<br />
+### Dev Tips
 
-## Activity
-
-<div align="center">
-  <!-- Generated daily by .github/workflows/profile-3d.yml -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-green.svg" />
-    <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar with a radar chart of commits, issues, pull requests and reviews" width="100%" />
-  </picture>
-
-  <!-- Generated daily by .github/workflows/metrics.yml -->
-  <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/github-metrics.svg" alt="GitHub metrics: contribution calendar, notable contributions, languages and activity" />
-</div>
-
-<br />
-
-## Dev tips
+Short notes from things I learn while contributing, each with a code example. Full list in [docs/tips](docs/tips/README.md).
 
 | CSS | TypeScript & Next.js | 3D, accessibility & Git |
 | :-- | :-- | :-- |
@@ -59,6 +50,7 @@ I'm a **Web Design & Coding** student at Anadolu University. I like building thi
 | [Animation performance](docs/tips/07-animation-perf.md) | | [SVG accessibility](docs/tips/08-svg-a11y.md) |
 | | | [Pair programming](docs/tips/09-git-coauthors.md) |
 
-<br />
+### Contact
 
-<p align="center"><i>Great systems are built with small, consistent steps taken every single day.</i></p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292e?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/resul-ovur)
+[![GitHub](https://img.shields.io/badge/@ovurrsl-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/ovurrsl)
