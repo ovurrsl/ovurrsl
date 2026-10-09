@@ -15,14 +15,9 @@ Web Design & Coding student at Anadolu University. I build interactive 3D scenes
 | Reference panel parity | Uncapped position and scale bounds to comply with invariant E-008 |
 | Mezzanine internal stair | Internal stair placement with automatic floor/ceiling clearance sync |
 
-### Activity
-
-<!-- Generated daily by .github/workflows/metrics.yml -->
-<img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/github-metrics.svg" alt="GitHub metrics: commit calendar, organisations contributed to, and activity stats" width="100%" />
-
 ### Stack
 
-`TypeScript` `JavaScript` `React` `Next.js` `Three.js` `HTML` `CSS` `Tailwind` `Bun` `Git`
+TypeScript · JavaScript · React · Next.js · Three.js · HTML · CSS · Tailwind · Bun · Git
 
 ### Dev tips
 
