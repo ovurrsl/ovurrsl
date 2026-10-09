@@ -24,11 +24,7 @@ jobs:
           template: classic
           base: header, activity, community
           config_timezone: Europe/Istanbul
-          config_order: base.header, isocalendar, notable, languages, base.activity, base.community
-          
-          # Isometric 3D Calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          config_order: base.header, notable, languages, base.activity, base.community
           
           # Notable Contributions
           plugin_notable: yes

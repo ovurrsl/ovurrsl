@@ -39,9 +39,9 @@ I'm a **Web Design & Coding** student at Anadolu University. I like building thi
 <div align="center">
   <!-- Generated daily by .github/workflows/profile-3d.yml -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-green.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-green.svg" />
-    <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar with a radar chart of commits, issues, pull requests and reviews" width="100%" />
+    <img src="https://raw.githubusercontent.com/ovurrsl/ovurrsl/main/profile-3d-contrib/profile-night-green.svg" alt="3D contribution calendar with a radar chart of commits, issues, pull requests and reviews" width="100%" />
   </picture>
 
   <!-- Generated daily by .github/workflows/metrics.yml -->
