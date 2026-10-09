@@ -28,17 +28,6 @@ const resul = {
 ![Git](https://img.shields.io/badge/Git-24292e?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white)
 
-### Open Source
-
-Pull requests to [pascalorg/editor](https://github.com/pascalorg/editor) · [all my PRs](https://github.com/pascalorg/editor/pulls?q=is%3Apr+author%3Aovurrsl)
-
-| Pull request | Summary |
-| :-- | :-- |
-| [Stair handedness mirror](https://github.com/pascalorg/editor/pull/901) | In-place symmetry and bi-directional mirror transform for turning and cut-back stairs |
-| [Windows SSR DNS fix](https://github.com/pascalorg/editor/pull/876) | Fixed a server-component fetch crash by reading the scene singleton directly |
-| Reference panel parity | Uncapped position and scale bounds to comply with invariant E-008 |
-| Mezzanine internal stair | Internal stair placement with automatic floor/ceiling clearance sync |
-
 ### Dev Tips
 
 Short notes from things I learn while contributing, each with a code example. Full list in [docs/tips](docs/tips/README.md).
